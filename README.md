@@ -1,7 +1,5 @@
 # Code for the "Conditional Electrocardiogram Generation Using Hierarchical Variational Autoencoders" Paper
 
-[![arXiv](https://img.shields.io/badge/arXiv-2503.13469-b31b1b.svg)](https://arxiv.org/abs/2503.13469)
-
 cNVAE-ECG is a model based on [NVAE](https://github.com/NVlabs/NVAE) for conditional generation of 12 main-lead ECG signals longer than one heartbeat.
 
 <p align="center">
@@ -32,22 +30,3 @@ cNVAE-ECG is a model based on [NVAE](https://github.com/NVlabs/NVAE) for conditi
 For comparing enrichment of the direct training set enrichment methods for the binary classification task, run the ```enrich_train.sh``` script with specified parameters;
 #### Multi-label classification - transfer learning
 To compare results for the transfer learning setting for the multi-label classification, run the ```enrich_pretrain.sh``` script with specified parameters for each method.
-
----
-
-#### BibTeX reference
-```
-@misc{sviridov2025conditionalelectrocardiogramgenerationusing,
-      title={Conditional Electrocardiogram Generation Using Hierarchical Variational Autoencoders}, 
-      author={Ivan Sviridov and Konstantin Egorov},
-      year={2025},
-      eprint={2503.13469},
-      archivePrefix={arXiv},
-      primaryClass={eess.SP},
-      url={https://arxiv.org/abs/2503.13469}, 
-}
-```
-
----
-
-Thank you for your interest in our work! If you have any questions, feel free to open an issue or contact Ivan at wchhiaarid@gmail.com.
